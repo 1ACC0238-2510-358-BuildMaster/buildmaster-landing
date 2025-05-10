@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Básico -->
+  <meta charset="utf-8" /> <!-- Establece la codificación de caracteres del documento a UTF-8 -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" /> <!-- Asegura la compatibilidad con Internet Explorer y Edge -->
+
+  <!-- Metas para dispositivos móviles -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" /> 
+  <!-- Define el ancho del viewport según el ancho del dispositivo y permite el ajuste del zoom -->
+
+  <!-- Metas del sitio -->
+  <meta name="keywords" content="" /> <!-- Palabras clave para los motores de búsqueda -->
+  <meta name="description" content="" /> <!-- Descripción del sitio web -->
+  <meta name="author" content="" /> <!-- Autor del sitio web -->
+
+  <title>NovaPeak</title> <!-- Título del sitio web que aparece en la pestaña del navegador -->
+
+  <!-- Hoja de estilos del slider (carrusel) -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css" />
+
+  <!-- CSS del framework Bootstrap -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+  <!-- Estilos de fuentes (Google Fonts) -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:400,700|Raleway:400,700&display=swap" rel="stylesheet" />
+
+  <!-- Estilos personalizados para esta plantilla -->
+  <link href="css/style.css" rel="stylesheet" />
+
+  <!-- Estilos para la versión responsiva del sitio -->
+  <link href="css/responsive.css" rel="stylesheet" />
+</head>
+
+
+<body>
+<div class="hero_area">
+  <!-- Inicio de la sección del encabezado -->
+  <header class="header_section">
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg custom_nav-container">
+        <!-- Logo del sitio -->
+        <a class="navbar-brand" href="index.html">
+          <span>
+            NovaPeak <!-- Nombre de la Startup -->
+          </span>
+        </a>
+
+        <!-- Menú de navegación -->
+        <div class="navbar-collapse" id="">
+          <div class="custom_menu-btn">
+            <!-- Botón para abrir el menú lateral -->
+            <button onclick="openNav()">
+              <span class="s-1"> </span> <!-- Línea superior del icono del menú -->
+              <span class="s-2"> </span> <!-- Línea media del icono del menú -->
+              <span class="s-3"> </span> <!-- Línea inferior del icono del menú -->
+            </button>
+          </div>
+
+          <!-- Menú lateral (overlay) -->
+          <div id="myNav" class="overlay">
+            <div class="overlay-content">
+              <!-- Enlaces del menú -->
+              <a href="index.html">HOME</a>
+              <a href="sobre.html">SOBRE NOSOTROS</a>
+              <a href="ayuda.html">AYUDA</a>
+              <a href="contact.html">CONTÁCTANOS</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- Fin de la sección del encabezado -->
+
+  <!-- Inicio de la sección del slider (carrusel) -->
+  <section class="slider_section position-relative">
+    <div class="container">
+      <div class="row">
+        <!-- Sección de texto del slider -->
+        <div class="col-md-7">
+          <div class="detail-box">
+            <h2>
+              BEST BUILDER APP<!-- Título secundario del slider -->
+            </h2>
+            <h1>
+              Construye <br />
+              Tu Pc <!-- Título principal del slider -->
+            </h1>
+            <div>
+              <!-- Enlace para descargar la aplicación -->
+              <a href="">
+                Descargar
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sección del carrusel de imágenes -->
+        <div class="col-md-5">
+          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <!-- Indicadores del carrusel -->
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Contenedor de los elementos del carrusel -->
+            <div class="carousel-inner">
+              <!-- Primer ítem del carrusel (activo por defecto) -->
+              <div class="carousel-item active">
+                <div class="img-box">
+                  <img src="images/BuildMaster_Logo_sin_fongo.png" alt="Logo de la APP" /> <!-- Imagen del slider -->
+                </div>
+              </div>
+
+              <!-- Segundo ítem del carrusel -->
+              <div class="carousel-item">
+                <div class="img-box">
+                  <img src="images/NovaPeak_Logo_sin_fondo.png" alt="Logo de la Startup" />
+                </div>
+              </div>
+
+              <!-- Tercer ítem del carrusel -->
+              <div class="carousel-item">
+                <div class="img-box">
+                  <img src="images/BuildMaster_Logo_negro_sin_fongo.png" alt="Imágenes de una sección de la APP" />
+                </div>
+              </div>
+            </div>
+
+            <!-- Controles del carrusel -->
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="sr-only">Previous</span> <!-- Texto accesible solo para lectores de pantalla -->
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="sr-only">Next</span> <!-- Texto accesible solo para lectores de pantalla -->
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Fin de la sección del slider -->
+</div>
+
+  <!-- feature section -->
+  <section class="feature_section layout_padding2 layout_margin">
+    <div class="container">
+      <div class="heading_container">
+        <h2>
+          La primera APP del mundo<br />
+          Para construir la PC de tus sueños
+        </h2>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="box">
+            <div class="head-box">
+              <div class="img-box">
+                <svg height="512pt" viewBox="0 0 512 512.08926" width="512pt" xmlns="http://www.w3.org/2000/svg">
+                  <path d="m383.808594 117.007812 11.316406-11.3125 11.3125 11.3125-11.3125 11.3125zm0 0" />
+                  <path d="m146.390625 354.433594 112-112 11.3125 11.3125-112 112zm0 0" />
+                  <path d="m32.042969 456.089844h176v16h-176zm0 0" />
+                  <path d="m32.042969 424.089844h32v16h-32zm0 0" />
+                  <path d="m80.042969 424.089844h32v16h-32zm0 0" />
+                  <path d="m128.042969 424.089844h80v16h-80zm0 0" />
+                  <path
+                    d="m455.078125 170.191406c42.605469-42.335937 63.105469-102.078125 55.460937-161.652344l-.796874-6.179687-6.175782-.796875c-59.574218-7.621094-119.304687 12.886719-161.632812 55.496094l-28.945313 28.949218-50.910156-5.65625-76.257813 76.257813 39.601563 39.601563 33.933594-33.945313 11.601562 11.601563-34.222656 34.222656h-204.691406c-17.671875 0-32.0000002 14.328125-32.0000002 32v240c0 17.671875 14.3281252 32 32.0000002 32h352c17.675781 0 32-14.328125 32-32v-214.296875l15.738281-15.734375-5.65625-50.90625zm40.253906-153.398437c2.945313 31.992187-2.863281 64.183593-16.800781 93.128906l-76.320312-76.328125c28.949218-13.929688 61.132812-19.734375 93.121093-16.800781zm-247.289062 134.160156-22.621094 22.632813-16.976563-16.976563 59.503907-59.511719 30.550781 3.398438-27.679688 27.671875zm34.226562 34.222656 16.6875 16.691407-22.632812 22.621093 11.3125 11.3125 22.632812-22.625 16.6875 16.691407-66.632812 66.621093 11.3125 11.3125 66.632812-66.625 11.597657 11.601563-33.941407 33.945312 39.597657 39.589844 12.519531-12.527344v70.304688h-320v-128h140.691406l-16.410156 16.398437 11.3125 11.3125zm117.773438 294.914063c0 8.835937-7.160157 16-16 16h-352c-8.835938 0-16-7.164063-16-16v-240c0-8.835938 7.164062-16 16-16h188.691406l-16 16h-172.691406v160h352v-102.296875l16-16zm-44.519531-176.402344-16.976563-16.964844 22.632813-22.632812 50.449218-50.457032 3.390625 30.550782zm5.65625-62.230469-39.597657-39.589843 33.941407-33.945313-11.3125-11.3125-33.941407 33.9375-39.601562-39.59375 82.578125-82.582031c10.304687-10.296875 21.828125-19.296875 34.308594-26.808594l83.019531 83.015625c-7.515625 12.476563-16.515625 23.996094-26.808594 34.304687zm0 0" />
+                  <path d="m186.382812 66.429688 64.003907-64 11.3125 11.3125-64.003907 64zm0 0" />
+                  <path d="m122.382812 66.429688 48-47.996094 11.3125 11.3125-48 48zm0 0" />
+                  <path d="m434.386719 314.429688 64.003906-64 11.3125 11.3125-64 64zm0 0" />
+                  <path d="m434.386719 378.429688 47.996093-47.996094 11.316407 11.3125-48 48zm0 0" />
+                  <path d="m138.386719 306.429688 22.628906-22.625 11.3125 11.3125-22.628906 22.628906zm0 0" />
+                  <path d="m226.390625 330.429688 22.628906-22.625 11.3125 11.3125-22.628906 22.628906zm0 0" />
+                  <path d="m232.042969 480.089844h136v-64h-136zm88-48h32v32h-32zm-72 0h56v32h-56zm0 0" />
+                </svg>
+
+              </div>
+              <h6>
+                Selección Rápida
+              </h6>
+            </div>
+            <div class="detail-box">
+              <p>
+                Con nuestra App podrás elegir todos los componentes
+                de tu PC ideal según tus necesidades de forma 
+                sencilla y sin complicaciones. 
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="box">
+            <div class="head-box">
+              <div class="img-box">
+                <svg id="Capa_1" enable-background="new 0 0 512 512" height="512" viewBox="0 0 512 512" width="512" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="m507.606 155.023-150.632-150.629c-2.813-2.814-6.628-4.394-10.606-4.394s-7.794 1.58-10.607 4.394l-56.4 56.398c-2.813 2.813-4.394 6.628-4.394 10.606 0 3.979 1.581 7.794 4.394 10.607l13.841 13.84c-33.74 29.925-72.881 47.928-116.557 53.559-36.544 4.712-62.791-1.46-63.013-1.515-7.85-1.938-15.823 2.692-18.028 10.47l-94.348 332.638c-2.421 5.543-1.342 12.235 3.236 16.719 2.919 2.859 6.709 4.284 10.496 4.284 2.481 0 4.957-.618 7.19-1.838l331.451-93.773c7.783-2.202 12.419-10.179 10.479-18.031-.243-.984-22.395-95.369 52.059-179.552l13.827 13.827c2.929 2.93 6.767 4.394 10.607 4.394 3.838 0 7.678-1.465 10.607-4.394l56.4-56.397c2.813-2.813 4.394-6.628 4.394-10.606s-1.582-7.795-4.396-10.607zm-174.946 177.892c-3.06 24.854-1.76 45.431-.144 58.27l-266.826 75.489 118.383-120.861c9.316 5.464 19.949 8.387 31.035 8.387 16.43 0 31.877-6.397 43.495-18.016h.001c23.982-23.982 23.982-63.005-.001-86.987s-63.006-23.982-86.989 0c-20.481 20.481-23.457 51.923-8.956 75.607l-116.943 119.39 75.082-264.715c12.839 1.616 33.42 2.919 58.28-.143 35.648-4.389 86.991-18.911 135.359-62.257l80.483 80.481c-43.346 48.366-57.869 99.708-62.259 135.355zm-139.834-62.506c6.144-6.144 14.211-9.214 22.281-9.214 8.068 0 16.139 3.072 22.281 9.214 12.286 12.286 12.286 32.275 0 44.561-5.952 5.951-13.864 9.228-22.281 9.228s-16.329-3.277-22.281-9.228c-12.285-12.285-12.285-32.275 0-44.561zm247.774-69.595-14.155-14.154c-.002-.002-.003-.003-.004-.005-.002-.002-.003-.003-.005-.005l-115.254-115.252 35.186-35.185 129.418 129.416z" />
+                </svg>
+              </div>
+              <h6>
+                Compatibilización
+              </h6>
+            </div>
+            <div class="detail-box">
+              <p>
+                Nosotros nos encargamos de la compatibilización de los
+                componentes que elijas, para que no tengas que
+                preocuparte por nada.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="box">
+            <div class="head-box">
+              <div class="img-box">
+                <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512"
+                  style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                  <g>
+                    <g>
+                      <g>
+                        <path d="M294,198H60c-33.084,0-60,26.916-60,60v154c0,33.084,26.916,60,60,60h234c33.084,0,60-26.916,60-60V258
+                     C354,224.916,327.084,198,294,198z M314,412c0,11.028-8.972,20-20,20H60c-11.028,0-20-8.972-20-20V258c0-11.028,8.972-20,20-20
+                     h234c11.028,0,20,8.972,20,20V412z" />
+                        <rect y="120" width="40" height="40" />
+                        <path d="M40,40C17.909,40,0,57.909,0,80h40V40z" />
+                        <rect x="236" y="40" width="40" height="40" />
+                        <rect x="158" y="40" width="40" height="40" />
+                        <rect x="79" y="40" width="40" height="40" />
+                        <path d="M472,40v40h40C512,57.909,494.091,40,472,40z" />
+                        <rect x="472" y="354" width="40" height="40" />
+                        <rect x="472" y="276" width="40" height="40" />
+                        <rect x="472" y="198" width="40" height="40" />
+                        <rect x="314" y="40" width="40" height="40" />
+                        <rect x="472" y="120" width="40" height="40" />
+                        <rect x="393" y="432" width="40" height="40" />
+                        <path d="M472,472c22.091,0,40-17.909,40-40h-40V472z" />
+                        <rect x="393" y="40" width="40" height="40" />
+                      </g>
+                    </g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                  <g>
+                  </g>
+                </svg>
+
+              </div>
+              <h6>
+                Componentes de Calidad
+              </h6>
+            </div>
+            <div class="detail-box">
+              <p>
+                Nuestros componentes son de la mejor calidad y
+                de las mejores marcas del mercado, para que
+                puedas disfrutar de tu PC al máximo.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end feature section -->
+
+  <!-- download section -->
+
+  <section class="download_section layout_padding-bottom">
+    <div class="container">
+      <div class="heading_container">
+        <h2>
+          Build Master APP
+        </h2>
+      </div>
+      <div class="layout_padding2-top">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="box">
+              <div class="head-box">
+                <div class="img-box">
+                  <img src="images/cloud-download.png" alt="" />
+                </div>
+                <h6>
+                  Descarga la APP
+                </h6>
+              </div>
+              <div class="detail-box">
+                <p>
+                  Dale click al botón de descarga y empieza a disfrutar de
+                  nuestra APP. Podrás elegir los componentes de tu PC ideal
+                  y nosotros nos encargamos de la compatibilización.
+                </p>
+              </div>
+            </div>
+            <div class="box">
+              <div class="head-box">
+                <div class="img-box">
+                  <img src="images/trophy_.png" alt="" />
+                </div>
+                <h6>
+                  Fácil de Usar
+                </h6>
+              </div>
+              <div class="detail-box">
+                <p>
+                  Sin complicaciones. Con nuestra APP podrás armar
+                  tu PC ideal de forma sencilla y rápida.
+                  No tendrás que preocuparte por nada, nosotros lo hacemos por ti.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="main-img-box">
+              <img src="images/BuildMaster_Logo_negro_sin_fongo.png" alt="" />
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="box">
+              <div class="head-box">
+                <div class="img-box">
+                  <img src="images/playstore.png" alt="" />
+                </div>
+                <h6>
+                  Disponible en la Play Store
+                </h6>
+              </div>
+              <div class="detail-box">
+                <p>
+                  Una APP segura y validada con altos
+                  estándares de calidad. Búscanos en la Play Store
+                  y verás todas las opiniones de nuestros usuarios.
+                </p>
+              </div>
+            </div>
+            <div class="box">
+              <div class="head-box">
+                <div class="img-box">
+                  <img src="images/heart.png" alt="" />
+                </div>
+                <h6>
+                  Disfruta de la APP
+                </h6>
+              </div>
+              <div class="detail-box">
+                <p>
+                  Según tu experiencia ayúdanos calificando
+                  la Aplicación en la Play Store. ¡Tu opinión es muy
+                  importante para nosotros y nos ayuda a mejorar!
+                </p>
+              </div>
+            </div>
+            <div>
+              <a href="" class="btn-2">
+                Descarga Ahora
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end download section -->
+
+  <!-- about section -->
+  <section class="about_section layout_padding">
+    <div class="container">
+      <div class="heading_container d-flex justify-content-lg-start">
+        <h2>
+          Sobre Nosotros
+        </h2>
+      </div>
+      <div class="layout_padding2-top">
+        <div class="row">
+          <div class="col-md-5">
+            <div class="detail-box b-1">
+              <p>
+                Somos una Startup dedicada a la creación de una APP que te permitirá 
+                elegir los componentes de tu PC ideal desde la comodidad de tu hogar. 
+                Transformamos la experiencia de armar una computadora en un proceso 
+                sencillo y libre de frustraciones.
+                <h2>Misión</h2>
+                Nuestra misión es hacer que armar tu computadora sea una experiencia segura, 
+                eficiente y satisfactoria. Porque entendemos que tu PC no es solo un conjunto 
+                de piezas, es una inversión que debe rendir al máximo.
+                <h2>Visión</h2>
+                Nuestra visión es ser la plataforma líder en armado de computadoras en Latinoamérica, 
+                reconocida por brindar una experiencia sin estrés, basada en la calidad, el rendimiento 
+                y la relación costo-beneficio de cada componente.
+                <h2>Valores</h2>
+                Nos guiamos por la innovación para ofrecer soluciones tecnológicas avanzadas, 
+                fomentamos la transparencia al presentar opciones claras y honestas, y priorizamos 
+                la calidad trabajando.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-5">
+            <div class="detail-box b-2">
+              <p>
+                <h2>Nuestros Clientes</h2>
+                <h4>Usuarios</h4>
+                <ul>
+                  <li><strong>Gamers:</strong> Computadoras con gráficos de alta calidad, sistemas de enfriamiento y rendimiento optimizado para juegos exigentes.</li>
+                  <li><strong>Diseñadores Gráficos:</strong> Equipos con tarjetas gráficas avanzadas, pantallas de alta resolución y capacidad de procesamiento para software de diseño.</li>
+                  <li><strong>Estudiantes:</strong> PCs accesibles, portátiles y versátiles para tareas académicas y proyectos multimedia.</li>
+                </ul>
+                <h4>Empresas</h4>
+                <ul>
+                  <li><strong>Agencias de Marketing:</strong> Equipos potentes para edición de video, diseño gráfico y análisis de datos.</li>
+                  <li><strong>Empresas de Desarrollo de Software:</strong> Computadoras optimizadas para programación, virtualización y pruebas de aplicaciones.</li>
+                  <li><strong>Estudios de Arquitectura:</strong> PCs con tarjetas gráficas avanzadas y monitores de alta resolución para modelado 3D y renderización.</li>
+                </ul>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- client section -->
+  <section class="client_section layout_margin">
+    <div class="container">
+      <div class="heading_container">
+        <h2>
+          Preguntas Frecuentes (FAQs)
+        </h2>
+      </div>
+      <div class="client_container layout_padding2-top">
+        <div class="client-id">
+          <div class="name">
+            <img src="images/quote.png" alt="" />
+            <h3>
+              ¿Cómo me ayuda BuildMaster a armar una PC según mis necesidades?
+            </h3>
+          </div>
+        </div>
+        <div class="client-detail">
+          <p>
+            BuildMaster te guía paso a paso en la elección de componentes compatibles 
+            basados en tu presupuesto y uso específico, asegurándote rendimiento, calidad 
+            y costo-beneficio.
+          </p>
+        </div>
+        <div class="client_container layout_padding2-top">
+        <div class="client-id">
+          <div class="name">
+            <img src="images/quote.png" alt="" />
+            <h3>
+              ¿La app garantiza que los componentes seleccionados sean compatibles entre sí?
+            </h3>
+          </div>
+        </div>
+        <div class="client-detail">
+          <p>
+            Sí, BuildMaster verifica automáticamente la compatibilidad de todos los componentes 
+            seleccionados para evitar problemas de incompatibilidad.
+          </p>
+        </div>
+        <div class="client_container layout_padding2-top">
+        <div class="client-id">
+          <div class="name">
+            <img src="images/quote.png" alt="" />
+            <h3>
+              ¿Qué tipo de usuarios pueden beneficiarse de BuildMaster?
+            </h3>
+          </div>
+        </div>
+        <div class="client-detail">
+          <p>
+            Desde gamers y diseñadores gráficos hasta programadores, empresas y usuarios casuales 
+            que buscan un equipo adecuado sin gastar de más.
+          </p>
+        </div>
+        <div class="d-flex justify-content-end">
+          <a href="ayuda.html">
+            Leer Más
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end client section -->
+
+  <!-- contact section -->
+  <section class="contact_section layout_padding">
+    <div class="container">
+      <div class="d-flex ">
+        <h2>
+          Contáctanos
+        </h2>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+
+          <form action="">
+            <div class="contact_form-container">
+              <div>
+                <div>
+                  <input type="text" placeholder="Nombre Completo">
+                </div>
+                <div>
+                  <input type="text" placeholder="Número de Celular">
+                </div>
+                <div>
+                  <input type="email" placeholder="Correo">
+                </div>
+                <div class="mt-5">
+                  <input type="text" placeholder="Déjanos tu mensaje">
+                </div>
+                <div class="mt-5">
+                  <button type="submit">
+                    Envíar
+                  </button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="col-md-6">
+          <div class="contact_img-box">
+            <img src="images/BuildMaster_Logo_negro_sin_fongo.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end contact section -->
+  <!-- info section -->
+  <section class="info_section layout_padding-top">
+    <div class="info_logo-box">
+      <h2>
+        NOVA PEAK
+      </h2>
+    </div>
+    <div class="container">
+      <div class="social_container">
+
+        <div class="social-box">
+          <a href="">
+            <img src="images/fb.png" alt="">
+          </a>
+
+          <a href="">
+            <img src="images/twitter.png" alt="">
+          </a>
+          <a href="">
+            <img src="images/linkedin.png" alt="">
+          </a>
+          <a href="">
+            <img src="images/instagram.png" alt="">
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end info section -->
+  <!-- footer section -->
+  <section class="container-fluid footer_section">
+    <p>
+      &copy; 2025 Todos los Derechos Reservados. Diseñado por NovaPeak
+    </p>
+  </section>
+  <!-- footer section -->
+
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+
+  <script>
+    function openNav() {
+      document.getElementById("myNav").classList.toggle("menu_width");
+      document
+        .querySelector(".custom_menu-btn")
+        .classList.toggle("menu_btn-style");
+    }
+  </script>
+</body>
+
+</html>
